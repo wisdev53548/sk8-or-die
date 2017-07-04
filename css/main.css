@@ -44,3 +44,27 @@ div.modalFormWrapper {
 	margin-bottom: 20px;
 	width: 80%;
 }
+
+img.footerImg {
+	padding: 15px;
+}
+
+.fa {
+	margin: 10px;
+}
+
+.socialWrapper {
+	margin: auto;
+}
+
+.fa-facebook-square {
+	color: #3b5998;
+}
+
+.fa-google-plus-square {
+	color: #c32f10;
+}
+
+.fa-instagram {
+	color: #fff;
+}
