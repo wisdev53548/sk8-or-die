@@ -112,12 +112,56 @@
 			<div class="row">
 				<div class="col-sm-12">
 					<div class="coolStuffWrapper">
-						<button type="button" class="btn btn-lg coolStuffBtn">Get Cool Stuff!</button>
+						<button type="button" class="btn btn-lg coolStuffBtn" data-toggle="modal" data-target="#coolStuffModal">Get Cool Stuff!</button>
 					</div>
+				</div>
+			</div><!-- /div.row -->
+		</div><!-- /div.sectiondark -->
+	</div><!-- /container -->
+
+	<!-- Modals -->
+
+	<!-- Cool Stuff Modal -->
+	<div class="modal fade" id="coolStuffModal" tabindex="-1" role="dialog" aria-labelledby="coolStuffLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="contentLabel">Get Exclusive Content</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-sm-12">
+								<img src="assets/KFS_modal.png" alt="KF Image" class="img-fluid">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-12">
+								<div class="modalFormWrapper">
+									<form>
+										<div class="form-group">
+											<label for="name">What's your name?</label>
+											<input type="text" class="form-control" id="formName" placeholder="name">
+										</div>
+										<div class="form-group">
+											<label for="email">Where should we send your cool content?</label>
+											<input type="text" class="form-control" id="formEmail" placeholder="Email">
+										</div>
+									</form>
+								</div><!-- /div.modalFormWrapper -->
+							</div><!-- /div.col-sm-12 -->
+						</div><!-- /div.row -->
+					</div><!-- /div.container-fluid -->
+				</div><!-- /div.modal-body -->
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 				</div>
 			</div>
 		</div>
-	</div>
+	</div><!-- /Cool Stuff Modal -->
 
 	<!-- jQuery first, then Tether, then Bootstrap JS. -->
 	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
